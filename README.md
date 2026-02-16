@@ -20,7 +20,11 @@ It supports basic arithmetic operations, decimals, operator chaining, and dynami
 
 ---
 
-## Application Preview
+## 🌐 Live Demo
+
+🔗 **[Click here for live demo](https://cuki98.github.io/the-odin-project-calculator/)**
+
+## Application Screenshots
 
 ![Calculator Screenshot](./images/img-1.png)
 
