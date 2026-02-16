@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(20, 21, 25);
+}
+
+
+.calculator-container{
+    background-color: rgba(39, 39, 39, 0.3); /* 20% opaque white */
+    color: aliceblue;
+    border: .4px solid rgb(171, 171, 171, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    max-height: 600px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.left-side-btns{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#close-btn{
+    background-color: rgba(255, 99, 99, 0.7);
+}
+#mini-btn{
+    background-color: rgba(255, 204, 0, 0.7);
+}
+.button-stack{
+    padding: 5px;
+}
+.left-side-btns:active,
+#mini-btn:active,
+#close-btn:active{
+    background-color: rgba(250, 250, 250, 0.823);
+}
+
+#reader{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: flex-end;
+    justify-self: center;
+    font-size: 40px;
+    height: 100px;
+    width: 240px;
+    max-width: 280px;
+    overflow-y:hidden;
+
+}
+
+#calculator-buttons-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+.calculator-button{
+    height: 70px;
+    width: 70px;
+    background-color: rgba(225, 225, 225, 0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: larger;
+    user-select: none;
+    border: 0;
+    color: aliceblue;
+}
+
+.operator, #equals-btn{
+    background-color: rgb(255, 165, 0);
+}
+.row-one{
+    background-color: rgba(247, 247, 247, 0.4);
+}
+.calculator-button:active {
+    background-color: rgb(214, 211, 207, 0.5);
+}
+.operator:active,
+#equals-btn:active {
+    background-color: rgb(255, 165, 0, 0.8);
+
+}
