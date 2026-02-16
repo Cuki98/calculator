@@ -20,12 +20,7 @@ It supports basic arithmetic operations, decimals, operator chaining, and dynami
 
 ---
 
-## 🧠 How It Works
+## Application Preview
 
-### State Management
+![Calculator Screenshot](./images/img-1.png)
 
-```js
-let numbers = {
-    num1: '',
-    num2: ''
-}
